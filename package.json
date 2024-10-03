@@ -1,0 +1,18 @@
+{
+  "name": "nsemea-purchord-lib",
+  "version": "1.0.0",
+  "description": "NetSuite library to handle purchase order related topics",
+  "main": "none",
+  "author": "Dario Da Silva",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "devDependencies": {
+    "@hitc/netsuite-types": "^2024.2.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "netsuite-fasttrack-toolkit-ss2": "^7.3.1"
+  }
+}

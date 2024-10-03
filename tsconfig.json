@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "ES2019",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "declaration": true,
+    "baseUrl": ".",
+    "lib": ["ES2019", "dom"],
+    "paths": {
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"],
+      "@NFTSS2/*": ["node_modules/netsuite-fasttrack-toolkit-ss2/declarations/*"]
+    },
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "declarations", "dist"]
+}
